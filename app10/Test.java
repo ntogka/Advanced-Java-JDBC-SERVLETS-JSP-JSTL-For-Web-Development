@@ -14,7 +14,7 @@ public class Test {
 		
 		try {
 			Class.forName("ids.sql.IDSDriver");
-			con = DriverManager.getConnection("jdbc:ids://localhost:12/conn?dsn=mar", "system", "marina");
+			con = DriverManager.getConnection("jdbc:ids://localhost:12/conn?dsn=mardsn", "system", "marina");
 			st = con.createStatement();
 			rs = st.executeQuery("select * from emp1");
 			System.out.println("ENO\tENAME\tESAL\tEADDR");
