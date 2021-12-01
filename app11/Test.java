@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class Test {
-
+//Type-4 Driver
 	public static void main(String[] args) {
 		Connection con = null;
 		Statement st = null;
