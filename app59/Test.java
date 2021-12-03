@@ -12,7 +12,7 @@ public class Test {
 /*
 If any SQL query behaviour is changed because of users dynamic input which includes the symbols like ', -,..... then it is called as "SQL Injection Attack".
 Dhladi me ta simvola ayta vazontas ta sto username sou vgazei oti einai valid kai as einai invalid, auto einai "SQL Injection Attack"
-Vasiko provlima tou Statement
+Vasiko provlima tou Statement sigkekrimena an valis sto username to swsto '--
  */
     public static void main(String[] args) {
         Connection con = null;
