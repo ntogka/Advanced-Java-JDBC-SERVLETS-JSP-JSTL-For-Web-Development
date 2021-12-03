@@ -14,7 +14,7 @@ public class Test {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/marinadb", "root", "root");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/marinadb", "root", "marina");
 			rs = st.executeQuery("select * from emp1");
 			System.out.println("ENO\tENAME\tESAL\tEADDR");
 			System.out.println("----------------------");
