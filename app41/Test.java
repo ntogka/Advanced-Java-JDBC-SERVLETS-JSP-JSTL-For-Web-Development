@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class Test {
-
+//Utilization of Type-1 Driver with MySQL Database
 	public static void main(String[] args) {
 		Connection con = null;
 		Statement st = null;
