@@ -14,7 +14,7 @@ public class Test {
 		
 		try {
 			Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-			con = DriverManager.getConnection("jdbc:odbc:mysqldsn", "root", "root");
+			con = DriverManager.getConnection("jdbc:odbc:mysqldsn", "root", "marina");
 			st = con.createStatement();
 			rs = st.executeQuery("select * from emp1");
 			System.out.println("ENO\tENAME\tESAL\tEADDR");
