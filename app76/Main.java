@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.ArrayList;
 import java.util.List;
-
+//Connection Pooling: Example 
 class MyConnectionPooling{
     private static List<Connection> pool = new ArrayList<>(5);
 
