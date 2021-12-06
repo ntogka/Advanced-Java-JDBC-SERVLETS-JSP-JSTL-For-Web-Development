@@ -7,7 +7,15 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class Main {
-
+//Connection Pooling: Proxool Mech Example
+/*
+Proxool
+------------
+JARS: proxool-version.jar
+      proxool-cglib-version.jar
+      commons-logging-version.jar
+      ojdbc8.jar / mysql-connector-java-version.jar
+*/
     public static void main(String[] args) {
 
         ProxoolDataSource ds = null;
