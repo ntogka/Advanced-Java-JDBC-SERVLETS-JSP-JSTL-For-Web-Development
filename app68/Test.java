@@ -20,7 +20,7 @@ import java.sql.DriverManager;
 import java.sql.Types;
 
 public class Test {
-
+//CallableStatement: Example with Function
    public static void main(String[] args) {
        
        Connection con = null;
