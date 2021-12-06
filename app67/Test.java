@@ -5,7 +5,8 @@ BEGIN
    select ESAL into sal from emp1 where ENO = no;
 END getSal;
 /
-   
+
+//to trexis sto cmd sto sqlplus
 */
 package com.marina.app67;
 //CallableStatement: Example with Procedure
