@@ -7,6 +7,10 @@ import java.sql.Statement;
 
 public class Test {
 //Transaction Management: Atomicity Example-2
+    /*
+    Transferring some amount from one account to another account , 
+    here both the accounts are existed with in the same bank that is with in the same database.
+    */
     public static void main(String[] args) {
 
         Connection con = null;
