@@ -68,3 +68,17 @@ rowSet.writeXml(fos);
 
     }
 }
+/*
+If we execute the above program then we will get emp.xml file which includes the following three types of tags mainly.
+
+1.<properties> tag
+2.<metadata> tag
+3.<data> tag
+
+Where <properties> tag is able to manage all the properties of the RowSet object like command, url, username, password, table name,....
+
+Where <metadata> tag is able to manage metadata of the RowSet which includes no of columns, column names, database name, column data types,....
+
+
+Where <data> tag contains the actual records data in the form of <currentRow> tags.
+*/
